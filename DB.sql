@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.31, for Win64 (x86)
 --
--- Host: localhost    Database: SFANGULAR
+-- Host: localhost    Database: HANGOUTULAR
 -- ------------------------------------------------------
 -- Server version	5.5.31
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `SFANGULAR`
+-- Current Database: `HANGOUTULAR`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `sfangular` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `hangoutular` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `SFANGULAR`;
+USE `HANGOUTULAR`;
 
 --
 -- Table structure for table `rights`
