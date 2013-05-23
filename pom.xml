@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>sfeir.prototype</groupId>
-	<artifactId>Sfangular</artifactId>
+	<groupId>ageo.prototype</groupId>
+	<artifactId>Hangoutular</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>Sfangular</name>
+	<name>Hangoutular</name>
 	<properties>
 		<spring-version>3.2.2.RELEASE</spring-version>
 	</properties>
