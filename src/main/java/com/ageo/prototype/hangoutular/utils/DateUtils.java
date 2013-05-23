@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.utils;
+package com.ageo.prototype.hangoutular.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

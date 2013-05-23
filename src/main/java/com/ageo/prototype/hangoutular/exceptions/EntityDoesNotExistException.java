@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.exceptions;
+package com.ageo.prototype.hangoutular.exceptions;
 
 /**
  * This exception is thrown if an entity is not found

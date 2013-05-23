@@ -1,8 +1,8 @@
-package com.sfeir.prototype.sfangular.services;
+package com.ageo.prototype.hangoutular.services;
 
-import com.sfeir.prototype.sfangular.dtos.AuthenticationDto;
-import com.sfeir.prototype.sfangular.dtos.LoginRequestDto;
-import com.sfeir.prototype.sfangular.exceptions.InvalidLoginException;
+import com.ageo.prototype.hangoutular.dtos.AuthenticationDto;
+import com.ageo.prototype.hangoutular.dtos.LoginRequestDto;
+import com.ageo.prototype.hangoutular.exceptions.InvalidLoginException;
 
 public interface ILoginService {
 

@@ -1,8 +1,8 @@
-package com.sfeir.prototype.sfangular.daos;
+package com.ageo.prototype.hangoutular.daos;
 
 import java.util.Collection;
 
-import com.sfeir.prototype.sfangular.entities.UserEntity;
+import com.ageo.prototype.hangoutular.entities.UserEntity;
 
 public interface IUserDao {
 

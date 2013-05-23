@@ -1,11 +1,11 @@
-package com.sfeir.prototype.sfangular.mapping;
+package com.ageo.prototype.hangoutular.mapping;
 
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.sfeir.prototype.sfangular.dtos.RightDto;
-import com.sfeir.prototype.sfangular.entities.RightEntity;
+import com.ageo.prototype.hangoutular.dtos.RightDto;
+import com.ageo.prototype.hangoutular.entities.RightEntity;
 
 public class RightMapper {
 	

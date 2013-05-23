@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.utils;
+package com.ageo.prototype.hangoutular.utils;
 
 /**
  * If a checkbox is not checked, the associated boolean is not submitted

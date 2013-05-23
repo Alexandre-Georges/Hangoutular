@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.entities;
+package com.ageo.prototype.hangoutular.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

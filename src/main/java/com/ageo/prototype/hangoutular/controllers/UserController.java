@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.controllers;
+package com.ageo.prototype.hangoutular.controllers;
 
 import java.text.ParseException;
 import java.util.HashMap;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.sfeir.prototype.sfangular.dtos.ListDto;
-import com.sfeir.prototype.sfangular.dtos.UserDto;
-import com.sfeir.prototype.sfangular.exceptions.EntityDoesNotExistException;
-import com.sfeir.prototype.sfangular.exceptions.UserNotLoggedException;
-import com.sfeir.prototype.sfangular.services.IUserService;
+import com.ageo.prototype.hangoutular.dtos.ListDto;
+import com.ageo.prototype.hangoutular.dtos.UserDto;
+import com.ageo.prototype.hangoutular.exceptions.EntityDoesNotExistException;
+import com.ageo.prototype.hangoutular.exceptions.UserNotLoggedException;
+import com.ageo.prototype.hangoutular.services.IUserService;
 
 @Controller
 @RequestMapping("/users")

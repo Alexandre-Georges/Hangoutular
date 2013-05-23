@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.exceptions;
+package com.ageo.prototype.hangoutular.exceptions;
 
 /**
  * Exception thrown if the user try to access an unauthorized method

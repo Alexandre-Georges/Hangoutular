@@ -1,1 +1,1 @@
-package com.sfeir.prototype.sfangular.entities;
+package com.ageo.prototype.hangoutular.entities;

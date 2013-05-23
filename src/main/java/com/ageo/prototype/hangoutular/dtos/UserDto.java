@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.dtos;
+package com.ageo.prototype.hangoutular.dtos;
 
 import java.io.Serializable;
 import java.util.Collection;

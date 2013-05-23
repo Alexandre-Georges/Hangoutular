@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.daos;
+package com.ageo.prototype.hangoutular.daos;
 
 import java.util.Collection;
 
@@ -7,8 +7,8 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.sfeir.prototype.sfangular.controllers.DaoUtils;
-import com.sfeir.prototype.sfangular.entities.RightEntity;
+import com.ageo.prototype.hangoutular.controllers.DaoUtils;
+import com.ageo.prototype.hangoutular.entities.RightEntity;
 
 @Repository
 public class RightDao implements IRightDao {

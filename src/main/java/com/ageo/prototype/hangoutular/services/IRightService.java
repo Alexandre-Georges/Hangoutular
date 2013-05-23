@@ -1,11 +1,11 @@
-package com.sfeir.prototype.sfangular.services;
+package com.ageo.prototype.hangoutular.services;
 
 import java.text.ParseException;
 import java.util.Collection;
 
-import com.sfeir.prototype.sfangular.dtos.RightDto;
-import com.sfeir.prototype.sfangular.dtos.ListDto;
-import com.sfeir.prototype.sfangular.exceptions.EntityDoesNotExistException;
+import com.ageo.prototype.hangoutular.dtos.RightDto;
+import com.ageo.prototype.hangoutular.dtos.ListDto;
+import com.ageo.prototype.hangoutular.exceptions.EntityDoesNotExistException;
 
 public interface IRightService {
 

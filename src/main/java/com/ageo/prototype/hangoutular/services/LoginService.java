@@ -1,14 +1,14 @@
-package com.sfeir.prototype.sfangular.services;
+package com.ageo.prototype.hangoutular.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sfeir.prototype.sfangular.daos.IUserDao;
-import com.sfeir.prototype.sfangular.dtos.AuthenticationDto;
-import com.sfeir.prototype.sfangular.dtos.LoginRequestDto;
-import com.sfeir.prototype.sfangular.entities.UserEntity;
-import com.sfeir.prototype.sfangular.exceptions.InvalidLoginException;
+import com.ageo.prototype.hangoutular.daos.IUserDao;
+import com.ageo.prototype.hangoutular.dtos.AuthenticationDto;
+import com.ageo.prototype.hangoutular.dtos.LoginRequestDto;
+import com.ageo.prototype.hangoutular.entities.UserEntity;
+import com.ageo.prototype.hangoutular.exceptions.InvalidLoginException;
 
 @Service
 public class LoginService implements ILoginService {

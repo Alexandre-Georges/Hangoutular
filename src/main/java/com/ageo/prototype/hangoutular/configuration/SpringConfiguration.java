@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.configuration;
+package com.ageo.prototype.hangoutular.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

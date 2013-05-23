@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.services;
+package com.ageo.prototype.hangoutular.services;
 
 import java.text.ParseException;
 import java.util.Collection;
@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sfeir.prototype.sfangular.daos.IUserDao;
-import com.sfeir.prototype.sfangular.dtos.ListDto;
-import com.sfeir.prototype.sfangular.dtos.UserDto;
-import com.sfeir.prototype.sfangular.entities.UserEntity;
-import com.sfeir.prototype.sfangular.exceptions.EntityDoesNotExistException;
-import com.sfeir.prototype.sfangular.mapping.UserMapper;
+import com.ageo.prototype.hangoutular.daos.IUserDao;
+import com.ageo.prototype.hangoutular.dtos.ListDto;
+import com.ageo.prototype.hangoutular.dtos.UserDto;
+import com.ageo.prototype.hangoutular.entities.UserEntity;
+import com.ageo.prototype.hangoutular.exceptions.EntityDoesNotExistException;
+import com.ageo.prototype.hangoutular.mapping.UserMapper;
 
 @Service
 public class UserService implements IUserService {

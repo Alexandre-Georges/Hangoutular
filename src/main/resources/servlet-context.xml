@@ -16,16 +16,16 @@
 	<mvc:resources mapping="**/test/**" location="**/static/**" />
 
 	<!-- Scans the packages to deploy as beans -->
-	<context:component-scan base-package="com.sfeir.prototype.sfangular.daos" />
-	<context:component-scan base-package="com.sfeir.prototype.sfangular.services" />
-	<context:component-scan base-package="com.sfeir.prototype.sfangular.controllers" />
+	<context:component-scan base-package="com.ageo.prototype.hangoutular.daos" />
+	<context:component-scan base-package="com.ageo.prototype.hangoutular.services" />
+	<context:component-scan base-package="com.ageo.prototype.hangoutular.controllers" />
 
 	<!-- Annotations use -->
 	<mvc:annotation-driven />
 	<tx:annotation-driven />
 	
 	<!-- Annotations are not working for session bean -->
-	<bean id="auth" class="com.sfeir.prototype.sfangular.beans.Auth" scope="session">
+	<bean id="auth" class="com.ageo.prototype.hangoutular.beans.Auth" scope="session">
 		<aop:scoped-proxy/>
 	</bean>
 	 
@@ -46,7 +46,7 @@
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="packagesToScan">
-			<value>com.sfeir.prototype.sfangular.entities</value>
+			<value>com.ageo.prototype.hangoutular.entities</value>
 		</property>
 		<property name="hibernateProperties">
 			<props>

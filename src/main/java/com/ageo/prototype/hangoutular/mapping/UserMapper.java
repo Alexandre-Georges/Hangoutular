@@ -1,13 +1,13 @@
-package com.sfeir.prototype.sfangular.mapping;
+package com.ageo.prototype.hangoutular.mapping;
 
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.sfeir.prototype.sfangular.dtos.UserDto;
-import com.sfeir.prototype.sfangular.entities.RightEntity;
-import com.sfeir.prototype.sfangular.entities.UserEntity;
-import com.sfeir.prototype.sfangular.utils.DateUtils;
+import com.ageo.prototype.hangoutular.dtos.UserDto;
+import com.ageo.prototype.hangoutular.entities.RightEntity;
+import com.ageo.prototype.hangoutular.entities.UserEntity;
+import com.ageo.prototype.hangoutular.utils.DateUtils;
 
 public class UserMapper {
 	

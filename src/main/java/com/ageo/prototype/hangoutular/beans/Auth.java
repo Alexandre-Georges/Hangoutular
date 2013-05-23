@@ -1,12 +1,12 @@
-package com.sfeir.prototype.sfangular.beans;
+package com.ageo.prototype.hangoutular.beans;
 
 import java.io.Serializable;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.sfeir.prototype.sfangular.dtos.AuthenticationDto;
-import com.sfeir.prototype.sfangular.exceptions.UserNotLoggedException;
+import com.ageo.prototype.hangoutular.dtos.AuthenticationDto;
+import com.ageo.prototype.hangoutular.exceptions.UserNotLoggedException;
 
 @Scope(value = "session")
 @Component

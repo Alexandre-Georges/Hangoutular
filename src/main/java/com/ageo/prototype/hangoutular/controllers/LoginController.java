@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.controllers;
+package com.ageo.prototype.hangoutular.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.sfeir.prototype.sfangular.dtos.AuthenticationDto;
-import com.sfeir.prototype.sfangular.dtos.LoginRequestDto;
-import com.sfeir.prototype.sfangular.exceptions.InvalidLoginException;
-import com.sfeir.prototype.sfangular.exceptions.UserNotLoggedException;
-import com.sfeir.prototype.sfangular.services.ILoginService;
+import com.ageo.prototype.hangoutular.dtos.AuthenticationDto;
+import com.ageo.prototype.hangoutular.dtos.LoginRequestDto;
+import com.ageo.prototype.hangoutular.exceptions.InvalidLoginException;
+import com.ageo.prototype.hangoutular.exceptions.UserNotLoggedException;
+import com.ageo.prototype.hangoutular.services.ILoginService;
 
 @Controller
 @RequestMapping("/login")

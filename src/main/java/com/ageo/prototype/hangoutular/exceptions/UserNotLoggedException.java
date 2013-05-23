@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.exceptions;
+package com.ageo.prototype.hangoutular.exceptions;
 
 /**
  * Exception thrown if the user is supposed to be logged in and he is not

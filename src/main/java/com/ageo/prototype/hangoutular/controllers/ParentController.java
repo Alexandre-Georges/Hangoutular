@@ -1,4 +1,4 @@
-package com.sfeir.prototype.sfangular.controllers;
+package com.ageo.prototype.hangoutular.controllers;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,10 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.sfeir.prototype.sfangular.beans.Auth;
-import com.sfeir.prototype.sfangular.exceptions.EntityDoesNotExistException;
-import com.sfeir.prototype.sfangular.exceptions.UnauthorizedException;
-import com.sfeir.prototype.sfangular.exceptions.UserNotLoggedException;
+import com.ageo.prototype.hangoutular.beans.Auth;
+import com.ageo.prototype.hangoutular.exceptions.EntityDoesNotExistException;
+import com.ageo.prototype.hangoutular.exceptions.UnauthorizedException;
+import com.ageo.prototype.hangoutular.exceptions.UserNotLoggedException;
 
 public class ParentController {
 
