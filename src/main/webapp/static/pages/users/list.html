@@ -1,6 +1,7 @@
 <div ng-include src="'static/pages/header.html'"></div>
 <div class="row-fluid">
 	<div class="span10 offset1 mainView">
+		<legend>List of users</legend>
 		<form ng-submit="search()" class="searchBar">
 			<input type="text" ng-model="textSearched" class="input-custom" bs-typeahead="typeaheadChange" placeholder="Name or firstname" />
 			<a ng-href="#{{UrlUtils.getUrl('URL_USERS_ADD')}}" class="btn btn-primary searchBar"><i class="icon-plus-sign icon-white"></i>&nbsp;Add</a>

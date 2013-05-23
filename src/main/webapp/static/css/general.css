@@ -2,6 +2,14 @@ input.ng-invalid {
 	border: 3px solid #b94a48;
 }
 
+div.header {
+	margin-top: 0.5%;
+}
+
+div.navbar {
+	margin-bottom: 1%;
+}
+
 div.logOutButton {
 	float: right;
 }
@@ -55,8 +63,8 @@ input[type=number].noSpinner::-webkit-outer-spin-button {
   background-color: white;
 }
 
-div .mainView {
-	padding: 2%;
+div.mainView {
+	padding: 1% 2% 1% 2%;
 	background-color: #fafafa; 
 	border: 1px solid #d4d4d4;
 	-webkit-border-radius: 4px;
@@ -64,7 +72,7 @@ div .mainView {
 	border-radius: 4px;
 }
 
-div .genericPopup {
+div.genericPopup {
 	z-index: 1000;
 	position: absolute;
 	background-color: #fafafa;
@@ -85,19 +93,19 @@ div .genericPopup {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
-div .loadingBar {
+div.loadingBar {
 	width: 80%;
 	position: absolute;
 	top: 40%;
 	left: 10%;
 }
 
-div .loadingPopup {
+div.loadingPopup {
 	height: 30%;
 	top: 30%;
 }
 
-div .errorPopup {
+div.errorPopup {
 	top: 20%;
 	padding: 2%;
 }
