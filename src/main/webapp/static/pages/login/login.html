@@ -25,18 +25,11 @@
 					<br />
 					No session has been found, please log in.
 				</div>
-				<br />
 			</div>
 			
-			<div class="row-fluid">
-				<div class="span4 offset2">
-					In order to test Hangoutular, you can use "GUEST" as username !
-					<br />
-					Feel free to contact me via LinkedIn :
-					<a href="http://fr.linkedin.com/in/algeorges">
-						<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Alexandre Georges's profile on LinkedIn">
-					</a>
-				</div>
+			<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				In order to test Hangoutular, you can use <b>GUEST</b> as username !
 			</div>
 			
 			<div class="control-group" ng-class="{error: loginForm.inputLogin.$invalid}">
@@ -52,7 +45,9 @@
 					<button type="submit" ng-disabled="loginForm.$invalid" ng-click="login()" class="btn btn-primary">Log in</button>
 				</div>
 			</div>
-		
+			
+			<div ng-include src="'static/pages/aboutMe.html'"></div>
+			
 		</form>
 	</div>
 </div>
