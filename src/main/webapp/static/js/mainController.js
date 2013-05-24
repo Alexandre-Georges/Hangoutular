@@ -78,7 +78,7 @@ mainApp.config(function($routeProvider, urlMapProvider) {
 });
 
 // main controller redirects from a view to another view
-mainApp.controller("mainController", function($rootScope, $scope, $location, ExceptionUtils, UrlUtils) {
+mainApp.controller("mainController", function($rootScope, $scope, $location, $window, ExceptionUtils, UrlUtils) {
 
 	$rootScope.$on("$routeChangeStart", function (event, next, current) {
         $scope.loading = false;
@@ -97,6 +97,11 @@ mainApp.controller("mainController", function($rootScope, $scope, $location, Exc
     $rootScope.$on("$routeChangeError", function (event, current, previous, rejection) {
         $scope.loading = false;
     	ExceptionUtils.processException($scope, $location, UrlUtils, rejection);
+    });
+    
+
+    $scope.$on("$viewContentLoaded", function(event) {
+    	$window._gaq.push(['_trackPageview', $location.path()]);
     });
     
     // displays the error on the screen
