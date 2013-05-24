@@ -128,5 +128,9 @@ urlModule.factory("UrlUtils", function(urlMap) {
 		return baseUrl + "/" + id;
 	};
 	
+	UrlUtils.toGoogleAnalyticsURL = function ($location) {
+		return $location.path().replace(/\/[0-9]+/g, "");
+	};
+	
 	return UrlUtils;
 });

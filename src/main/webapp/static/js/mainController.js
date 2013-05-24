@@ -101,7 +101,7 @@ mainApp.controller("mainController", function($rootScope, $scope, $location, $wi
     
 
     $scope.$on("$viewContentLoaded", function(event) {
-    	$window._gaq.push(['_trackPageview', $location.path()]);
+    	$window._gaq.push(['_trackPageview', UrlUtils.toGoogleAnalyticsURL($location)]);
     });
     
     // displays the error on the screen
