@@ -2,6 +2,7 @@
 *.class
 classes/
 /build
+/src/main/resources/jdbc.properties
 
 # Package
 *.jar
