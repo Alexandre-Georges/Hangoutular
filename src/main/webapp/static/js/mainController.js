@@ -1,5 +1,5 @@
 // main module with its dependencies
-var mainApp = angular.module("mainApp", ["$strap", "urlModule", "exceptionModule", "authModule", "rightsRestModule", "loginRestModule", "usersRestModule"]);
+var mainApp = angular.module("mainApp", [/*"ngUpload", */"$strap", "urlModule", "exceptionModule", "authModule", "rightsRestModule", "loginRestModule", "usersRestModule"]);
 
 // We use a provider to inject the url map in modules (url module)
 mainApp.provider("urlMap", function() {

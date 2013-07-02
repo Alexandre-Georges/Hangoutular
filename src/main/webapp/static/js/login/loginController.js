@@ -1,4 +1,19 @@
 function LoginController($scope, $routeParams, $location, ExceptionUtils, UrlUtils, loginRest, authUtils) {
+	/*
+	$scope.uploadComplete = function (content, completed) {
+	    if (completed && content.length > 0) {
+	      $scope.response = JSON.parse(content);
+	      $scope.response.style = {
+	        color: $scope.response.color,
+	        "font-weight": "bold"
+	      };
+
+	      $scope.fullname = '';
+	      $scope.gender = '';
+	      $scope.color = '';
+	    }
+	  };
+	  */
 	
 	$scope.invalidLogin = false;
 	$scope.expired = $routeParams.expired != null;

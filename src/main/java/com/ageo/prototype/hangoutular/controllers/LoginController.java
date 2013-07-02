@@ -27,6 +27,15 @@ public class LoginController extends ParentController {
 	
 	@Autowired
 	private ILoginService service;
+	/*
+	@RequestMapping(
+			method = RequestMethod.POST,
+			value = "/sendFiles",
+			produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Void> sendFiles(HttpServletRequest httpServletRequest, Object command, MultipartFile file) throws InvalidLoginException {
+
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}*/
 	
 	@RequestMapping(
 			method = RequestMethod.POST,
